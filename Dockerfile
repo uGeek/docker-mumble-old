@@ -1,3 +1,4 @@
+#FROM arm32v7/debian:buster
 FROM debian:testing-slim
 MAINTAINER angel <ugeekpodcast@gmail.com>
 
