@@ -1,5 +1,7 @@
 #FROM arm32v7/debian:buster
-FROM debian:testing-slim
+#FROM debian:testing-slim
+FROM arm32v7/debian:buster
+
 MAINTAINER angel <ugeekpodcast@gmail.com>
 
 RUN apt-get -y update; \
